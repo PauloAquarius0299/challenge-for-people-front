@@ -1,0 +1,10 @@
+services:
+  app:
+    image: radio-browser-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    container_name: radio-browser-app
+    restart: unless-stopped
