@@ -1,3 +1,23 @@
+# Radio Browser 
+Resolvendo desafio vaga frotend da empresa For People BH 
+![Captura de Tela (884)](https://github.com/user-attachments/assets/85df0294-b599-45fc-9e1e-677c5b3d6e44)
+## Introdução 
+Utilizando Next.js 15, desenvolvi todo o projeto aproveitando sua facilidade na reutilização de componentes React, tornando o desenvolvimento mais prático e eficiente. Para gerenciar estado e efeitos colaterais nos componentes, utilizei os hooks useState e useEffect, garantindo um fluxo de dados dinâmico e reativo.
+
+O Next.js permite a renderização híbrida por meio de SSR (Server-Side Rendering) e SSG (Static Site Generation), proporcionando um carregamento mais rápido das páginas e melhorando as práticas de SEO.
+
+Com TypeScript, utilizei tipagem estática para tornar o código mais robusto e seguro, prevenindo erros em tempo de desenvolvimento e melhorando a manutenção do software. Além disso, instalei a biblioteca Axios para facilitar requisições assíncronas e conectar-se à API das rádios proposta no desafio.
+
+Para a estilização, utilizei Tailwind CSS, que permite a aplicação de estilos diretamente nas tags HTML por meio de classes utilitárias, otimizando a escrita do CSS e garantindo uma implementação fiel ao layout definido no desafio. 
+## Ferramentas 
+* Nextjs
+* TypeScript
+* Tailwindcss
+* Axios
+* Docker
+___
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
